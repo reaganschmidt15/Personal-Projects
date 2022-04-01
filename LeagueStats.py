@@ -2,7 +2,7 @@ from riotwatcher import LolWatcher
 import pandas as pd
 
 #https://developer.riotgames.com/apis#match-v5/GET_getMatch
-api_key = 'RGAPI-821bf1ec-32b6-4488-8b2b-cb22342b10a7'
+api_key = ''
 watcher = LolWatcher(api_key)
 player_name = 'stevenssz'
 player = watcher.summoner.by_name('na1', player_name)
